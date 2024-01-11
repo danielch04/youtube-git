@@ -1,0 +1,12 @@
+# para estandarizar los saltos de línea en windows
+
+"comandos para estandarizar los saltos de linea que se crean en los archivos, 
+esto para trabajar con diferentes O.S (linux, mac, windows);
+
+# para estandarizar los saltos de línea en windows
+git config --global core.autocrlf true
+
+# para estandarizar los saltos de línea en linux/mac
+git config --global core.autocrlf inputgdfgdfg
+
+# 

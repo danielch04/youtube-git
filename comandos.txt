@@ -1,0 +1,73 @@
+pwd: te regresa como resultado la ruta en la que se encuentra en ese momento la terminal
+
+ls  lista los archivos de la carpeta
+ls -a lista todos los archivos incluyendo los ocultos
+ls -l muestra los archivo von todos los permisos que estos tienen
+la -la muestra los todos los archivos y sus permisos 
+
+cd es para cambiar entre carpetas (change directory)
+
+cd ~ te dirige hacia el directorio home
+
+cd .  Te dirige al directorio actual
+
+cd ..  Te dirige al directorio padre
+
+cd /  Te dirige a la raiz
+ 
+cd c  Te dirige a la carpeta C: (disco local) en Git bash ( la c es minuscula)
+
+cd - Regresa al directorio anterior
+
+ cd "Documents and Settings" Usamos comillas para acceder a carpetas con espacio en blanco en su nombre
+
+ touch Sirve para crear un nuevo archivo, con cualquier tipo de extension
+
+ echo Tambien sirve para crear archivos con contenido ( "Hola soy tu amigo y docente digital " > jonmircha.txt)
+
+ cat jon mircha.txt muestra el contenido del archivo
+
+ mkdir (make directory) Comando para crear ditectorios
+
+ rmdir sirve para eliminar unicamente directorios vacios
+
+ rm (remove) para eliminar archivos
+
+ rm -r elimina directorios con contenido
+
+ rm -rf para forzar eliminado
+
+ mv ruta Comando para mover archivos a otro directorios
+
+ -----no hay comando para renombrar archivos, pero se puede hacer uso de una variante del comando move------
+
+ mv archivo ruta, nuevoNombre: con esta variante se puede hacer el cambio
+ 
+ cp rutaArchhivo rutacopia copaira archivos con todo su contenido
+
+ cp -r copia una carpeta con contenido, 
+
+ find j* (Todo lo que empieza con j)
+ 
+ ps listar procesos activos de tu computadora
+
+ kill (id) comando para matar un proceso
+
+ abrir editor de codigo
+ nano
+ vim
+ code
+
+*comandos alias*
+ 
+alias hi='touch hola.txt' [ para crear alias y no tener que escribir todo el comando ]
+
+unalias hi [Para eliminar un alias]
+
+
+
+
+
+
+
+
